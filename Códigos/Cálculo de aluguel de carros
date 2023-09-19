@@ -1,0 +1,11 @@
+preco_dia = 60
+preco_km = 0.15
+
+dias = int(input('Quantos dias: '))
+km = float(input('Quantos Km: '))
+
+preco_total = (preco_dia * dias) + (km * preco_km)
+
+print('O carro foi alugado por {} dias e rodou {} Km'.format(dias, km))
+
+print('Total a pagar: R${:.2f}'.format(preco_total))

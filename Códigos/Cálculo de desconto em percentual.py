@@ -3,6 +3,6 @@ desconto = int(input('Qual é a porcentagem de desconto: ').replace(',','.'))
 porcentos = preco * desconto / 100
 novo = preco - porcentos
 
-print('Preço do produto: R${:.2f}'.format(preco))
-print('Desconto de {}% = -R${}'.format(desconto, porcentos))
-print('Total a pagar: R${}'.format(novo))
+print(f'Preço do produto: R${preco:.2f}')
+print(f'Desconto de {desconto:.1f}% = -R${porcentos}')
+print(f'Total a pagar: R${novo:.2f}')

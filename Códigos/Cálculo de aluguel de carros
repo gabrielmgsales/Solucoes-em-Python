@@ -6,6 +6,6 @@ km = float(input('Quantos Km: '))
 
 preco_total = (preco_dia * dias) + (km * preco_km)
 
-print('O carro foi alugado por {} dias e rodou {} Km'.format(dias, km))
+print(f'O carro foi alugado por {dias} e rodou {km}')
 
-print('Total a pagar: R${:.2f}'.format(preco_total))
+print(f'Total a pagar: R${preco_total:.2f}')

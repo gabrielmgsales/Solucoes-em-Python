@@ -1,4 +1,4 @@
 real = float(input('Quanto deseja converter ? R$').replace(',', '.'))
 dolar = real / 4.86
 
-print ('Com R${:.2f} você poderá comprar U$${:.2f}'.format(real, dolar))
+print (f'Com R${real:.2f} você poderá comprar U$${dolar:.2f}')
